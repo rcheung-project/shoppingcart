@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <title>Shopping cart</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <img src="images/logo.jpg" alt="logo" width="180px">
+            <p>
+                Cart 
+                <span id="totalitems">0</span> items and Price:
+                <span id="sum">0</span>
+                </a><br><br>
+                <button onClick="location.href='cart.html'">Checkout</button>
+            </p>
+        </div>
+<!-- create a card for each phone and get details from the phones array -->
+        <div class="cards">
+            <div class="card">
+                <img src="images/iPhone14.jpg" alt="iphone" width="100px">
+                <h3 id="models"></h3>
+                <p id="prices"></p><br>
+                <button data-id=1 class="btn-add">add to cart</button>
+                <button data-id=1 class="btn-remove">remove</button>
+            </div>
+
+            <div class="card">
+                <img src="images/SamsungA23.jpg" alt="Samsunga" width="100px">
+                <h3 id="models"></h3>
+                <p id="prices"></p><br>
+                <button data-id=2 class="btn-add">add to cart</button>
+                <button data-id=2 class="btn-remove">remove</button>
+            </div>
+
+            <div class="card">
+                <img src="images/SamsungZflip4.jpg" alt="Samsungz" width="100px">
+                <h3 id="models"></h3>
+                <p  id="prices"></p><br>
+                <button data-id=3 class="btn-add">add to cart</button>
+                <button data-id=3 class="btn-remove">remove</button>
+            </div>
+            </div>
+            <div class="cards">
+            <div class="card">
+                <img src="images/MotorolaG32.jpg" alt="Moto" width="100px">
+                <h3 id="models"></h3>
+                <p id="prices"></p><br>
+                <button data-id=4 class="btn-add">add to cart</button>
+                <button data-id=4 class="btn-remove">remove</button>
+            </div>
+            <div class="card">
+                <img src="images/Pixel6a.jpg" alt="Pixel" width="100px">
+                <h3 id="models"></h3>
+                <p id="prices"></p><br>
+                <button data-id=5 class="btn-add">add to cart</button>
+                <button data-id=5 class="btn-remove">remove</button>
+            </div>
+            <div class="card">
+                <img src="images/OppoA54s.jpg" alt="Oppo" width="100px">
+                <h3 id="models"></h3>
+                <p id="prices"></p><br>
+                <button data-id=6 class="btn-add">add to cart</button>
+                <button data-id=6 class="btn-remove">remove</button>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
